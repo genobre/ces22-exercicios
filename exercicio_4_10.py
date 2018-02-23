@@ -20,11 +20,16 @@ alex.penup()
 alex.goto(-150,50)                      #Define a posição inicial de alex
 alex.pendown()
 
-for i in range(5):
+for i in range(5):                      #Loop para desenhar as 5 estrelas usando função make_star
     make_star(alex)
     alex.penup()
     alex.forward(350)
     alex.right(144)
     alex.pendown()
+
+#Caso não fosse dado penup, desenhariamos uma estrela de cinco pontas maior
+#com estrelas menores em suas pontas, uma vez que os comandos utilizados são o mesmos
+#que os usados na função make_star. Poderiamos utilizar essa função, chamando a si mesma,
+#para realizar essa operação
 
 wn.mainloop()                   #Deixa a janela aberta
