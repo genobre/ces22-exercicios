@@ -7,6 +7,7 @@ coco = turtle.Turtle()                  #Cria a tartaruga coco
 coco.shape("turtle")                    #Seta o formato da tartaruga
 coco.color("blue")                      #Seta a cor da tartaruga
 coco.pensize(3)                         #Seta a espessura do traço
+coco.hideturtle()                       #Esconde a tartaruga
 
 #Criando uma estrela de cinco pontas
 
