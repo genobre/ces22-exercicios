@@ -1,1 +1,1 @@
-# ces22-exercicios
+Esse repositório foi criado para submeter os exercícios semanais da aula CES 22 - Programação Orientada a Objetos do Instituo Tecnológico de Aeronáutica, ministrada pelo prof. Yano.
