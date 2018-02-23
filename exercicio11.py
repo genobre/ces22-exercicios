@@ -11,10 +11,8 @@ coco.hideturtle()                       #Esconde a tartaruga
 
 #Criando uma estrela de cinco pontas
 
-coco.left(36)                           #Coloca a tartaruga na posição inicial
-
 for i in range(5):                      #Faz o loop da estrela
     coco.forward(150)
-    coco.left(144)
+    coco.right(144)
 
 wn.mainloop()
