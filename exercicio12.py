@@ -1,6 +1,7 @@
 import turtle                       #Nod permite usar tartarugas
 wn = turtle.Screen()                #Cria o background
 wn.bgcolor("lightgreen")            #Colore o background
+wn.title("Capítulo 3 - Exercício 12")        #Define o nome da janela aberta
 
 cep = turtle.Turtle()               #Cria a tartaruga cep
 cep.shape("turtle")                 #Seta o formato de Cep
