@@ -1,11 +1,11 @@
 import sys
 
-def add_vectors(a,b):
+def add_vectors(u,v):
     """Função para adicionar dois vetores de mesmo tamanho e retornar o resultado"""
-    n = len(a)
+    n = len(u)
     c = []
     for i in range(n):
-        new_elem = a[i] + b[i]
+        new_elem = u[i] + v[i]
         c.append(new_elem)
     return c
 
